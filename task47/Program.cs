@@ -14,7 +14,7 @@ double[,] CreateOutputArray(int m, int n)
     for (int j = 0; j < arr.GetLength(1); j++)
     {
       arr[i, j] = Convert.ToDouble(x.Next(-10, 10)/10.0);
-      Console.Write(arr[i, j] + " ");
+      Console.Write(arr[i, j] + " \t");
     }
     Console.WriteLine();
   }
